@@ -1,0 +1,17 @@
+<!-- <p>add-details works!</p> -->
+
+<h2>My Heroes Table</h2>
+    <table>
+      <thead>
+        <th>Hero-Id</th>
+        <th>Hero-Name</th>
+      </thead>
+
+      <tbody *ngFor="let hero of heroes">
+        <tr>
+          <td>{{hero.id}}</td>
+          <td>{{hero.name}}</td>
+        </tr>
+      </tbody>
+
+    </table>
